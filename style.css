@@ -4,13 +4,13 @@
 }
 
 body{
+    background: black;
 
 }
 
 .nav-container{
     display: flex;
     justify-content: space-around;
-    margin: 20px ;
     padding: 20px;
     background-color: gray;
     align-items: center;
@@ -24,8 +24,73 @@ body{
      gap: 15px;
      font-size: 17px;
      font-style: normal;
+     color: white;
      
 }
 .logo{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
 
+}
+span1{
+    color: aqua;
+}
+.ban-container{
+    height: 100vh;
+    background-image: url(images/background.jpg);
+    linear-gradient:(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.247);
+    
+   
+    
+}
+.ban-info{
+    text-align: center;
+    margin-left: 350px;
+    color: white;
+    
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 82px;
+    color: white
+   
+}
+span{
+    color: red;
+}
+.ban-descrition{
+    color:white ;
+    font-size: 25px;
+}
+
+.btn1{
+    color: white;
+    margin-top: 18px;
+    padding: 14px 25px;
+    font-size: 18px;
+    text-decoration-color: white;
+    background-color: red;
+    border: none;
+    
+}
+
+.btn2{
+    color: red;
+    margin-top: 18px;
+    padding: 14px 25px;
+    font-size:18PX ;
+    text-decoration-color: white;
+    background-color: white;
+    margin-left: 8px;
+    border: none;
 }
