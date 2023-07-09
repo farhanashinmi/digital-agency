@@ -2,3 +2,30 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px ;
+    padding: 20px;
+    background-color: gray;
+    align-items: center;
+
+}
+
+.manu{
+     display: flex;
+     justify-content: space-between;
+     list-style: none;
+     gap: 15px;
+     font-size: 17px;
+     font-style: normal;
+     
+}
+.logo{
+
+}
